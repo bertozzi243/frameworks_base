@@ -3830,4 +3830,8 @@ public class NotificationPanelViewController extends PanelViewController {
             return insets;
         }
     }
+
+    public void updateKeyguardStatusSettings() {
+        mKeyguardStatusView.updateAll();
+    }
 }
