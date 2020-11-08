@@ -295,6 +295,9 @@
     <uses-permission android:name="lineageos.permission.MANAGE_LIVEDISPLAY" />
     <uses-permission android:name="lineageos.permission.HARDWARE_ABSTRACTION_ACCESS" />
 
+    <!-- Pulse on new music tracks -->
+    <protected-broadcast android:name="com.android.systemui.doze.pulse" />
+
     <application
         android:name=".SystemUIApplication"
         android:persistent="true"
